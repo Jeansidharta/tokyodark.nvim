@@ -1,10 +1,10 @@
-![tokyodark.nvim](https://user-images.githubusercontent.com/30515389/141231977-82476546-eb48-47e4-a5fc-45ace7eacb0d.png)
+# Neon TokyoDark
 
-![image](https://user-images.githubusercontent.com/30515389/115807570-42385080-a3bf-11eb-8286-c981b5093ffa.png)
+![image](./screenshot.png)
 
 ### About
 
-A clean dark theme written in lua for neovim 0.7.
+A dark bold neon theme for Neovim.
 
 ### Features
 
@@ -19,13 +19,13 @@ Install with your favorite package manager:
 [packer](https://github.com/wbthomason/packer.nvim)
 
 ``` lua
-use 'tiagovla/tokyodark.nvim'
+use 'jeansidharta/tokyodark.nvim'
 ```
 
 [vim-plug](https://github.com/junegunn/vim-plug)
 
 ``` vim
-Plug 'tiagovla/tokyodark.nvim'
+Plug 'jeansidharta/tokyodark.nvim'
 ```
 
 ### Available configuration
@@ -61,8 +61,3 @@ let g:tokyodark_enable_italic = 1
 let g:tokyodark_color_gamma = "1.0"
 colorscheme tokyodark
 ```
-
-### Inspiration
-
-- [tokyonight-vim](https://github.com/ghifarit53/tokyonight-vim)
-- [tokyo-night-vscode-theme](https://github.com/enkia/tokyo-night-vscode-theme)
