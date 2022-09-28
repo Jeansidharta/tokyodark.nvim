@@ -3,10 +3,14 @@ local gamma = require("tokyodark.config").gamma
 
 local colors = {
 	black = "#06080A",
+	-- General background of the screen
 	bg0 = "#0D0C1E",
+	-- Secondary background. Used as a separator between backgrounds.
 	bg1 = "#1b1a33",
-	bg2 = "#14122e",
+	-- Used in visual mode
+	bg2 = "#363366",
 	bg3 = "#171536",
+	-- Used as the line number color, and comment color
 	bg4 = "#494766",
 	bg5 = "#1d1b45",
 	BG_RED = "#B3007A",
